@@ -17,4 +17,13 @@ This application has a Postman Test collection that demonstrates the operations 
 # Frontend
 
 The 'templates' folder contains a web application that can use the API developed in this project.
-The front end prompts the user to login, and generates a JSON Web TOken for the user to use in the postman collection for authentication.
+The front end prompts the user to login, and generates a JSON Web Token for the user to use in the postman collection for authentication.
+
+# Requirements
+
+1) Deploy project to Google Cloud Platform (GCP)
+2) Create a postman Account (https://www.postman.com)
+3) Create a project and import the two postman collections
+4) Make an account on the app that you deployed to GCP and generate a JSON Web Token
+5) In the project, add your JSON Web Token into the "token" variable field
+6) Run the postman tests to test the API to verify CRUD capabilities.
