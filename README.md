@@ -5,6 +5,10 @@ Implemented a REST API that uses resource based URLS, pagination, and status cod
 Implemented a system for creating users and for authorization.
 * Google Cloud Datastore stores the data utilizing Python and Google App Engine to deploy the project.
 
+# API Specifications Document
+
+https://github.com/craigkelleher/RestfulAPI/blob/main/kelleher_project.pdf
+
 # Functionality
 
 This app will allow the user to create, read, update, and delete operations for all non-user entities.
