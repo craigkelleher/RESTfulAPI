@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {% block header %}
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <title>Welcome</title>
+    {% endblock %}
+</head>
+
+
+<body>
+<br>
+    <div class="container">
+      <h4 id="welcome_status">Welcome</h4>
+      <p class="welcome-text">Use the login link to generate a JWT for the user</p>
+    </div>
+{% block content %}
+{% endblock %}
+</body>
+</html>
+
+

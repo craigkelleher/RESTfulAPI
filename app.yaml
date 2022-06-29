@@ -1,0 +1,10 @@
+# tells appengine how to route requests that come into our API.
+runtime: python37
+
+handlers:
+  # This handler routes all requests not caught above to your main app. It is
+  # required when static routes are defined, but can be omitted (along with
+  # the entire handlers section) when there are no static files defined.
+- url: /.*
+  script: auto
+  # this redirects any URL to the default script/program which is the main.py

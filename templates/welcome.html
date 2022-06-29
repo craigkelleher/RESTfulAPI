@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+    <div class="container">
+      <h4 id="welcome_status">Welcome</h4>
+      <p class="welcome-text">Use login link to make a JWT</p>
+    </div>
+{% block content %}
+<div class="container">
+    <a href="{{ startURL }}"><input type="button" class="button" value="Login" style="width:10%; color:black; border-style: solid;"/></a>
+</div>
+{% endblock %}
